@@ -105,10 +105,10 @@ Baby.prototype.play = function () {
 /* 
   TASK 4
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. Window Binding - When none of the other rules apply, this will return the window or global object in node or undefined in strict mode.
+  2. Implicit Binding - When the function is invoked look to the left of the dot that's what this refers to
+  3. Explicit Binding - .call, .apply, .bind to explicitly pass in whatever the this keyword is
+  4. New Binding - When a function is created as a constructor this points to the newly created object
 */
 
 ///////// END OF CHALLENGE /////////
